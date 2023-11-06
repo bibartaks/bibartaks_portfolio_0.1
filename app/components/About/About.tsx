@@ -48,7 +48,11 @@ export default function About() {
           tournaments. Additionally, my love for animals shines through, as I
           find solace and joy in petting and caring for them.
         </p>
-        <Link className={`${styles.aboutBtn} px-3 py-2 text-sm`} href="#">
+        <Link
+          className={`${styles.aboutBtn} px-3 py-2 text-sm`}
+          target="_blank"
+          href="/BibartaKSarkar_Resume.pdf"
+        >
           Resume
         </Link>
       </div>
