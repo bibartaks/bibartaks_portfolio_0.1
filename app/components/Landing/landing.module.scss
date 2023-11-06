@@ -1,0 +1,219 @@
+.profile {
+  color: #fff;
+  border: 4px double transparent;
+  background-image: linear-gradient(#0d0e21, #0d0e21),
+    radial-gradient(circle at left top, rgb(1, 26, 218), #d900c0, #ffb800);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.title {
+  background: #e815b7;
+  background: -webkit-linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  background: -moz-linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  background: linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: bold;
+}
+
+.aboutText {
+  opacity: 0.8;
+}
+
+.landingLink {
+  border-radius: 20px;
+  color: #fff;
+  border: 2px double transparent;
+  background-image: linear-gradient(#0d0e21, #0d0e21),
+    radial-gradient(circle at left top, #016eda, #d900c0);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-color: transparent;
+  padding: 0.3rem 0.5rem;
+}
+
+.bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/landing_gradinet.jpg") no-repeat top;
+  // background-size: contain;
+  // background-size: cover;
+  // overflow: hidden;
+  opacity: 0.5; /* Set the opacity value for the background image */
+  z-index: -1; /* Optional: move the background behind the content */
+}
+
+// .bg {
+//   background: url("/landing_gradinet.jpg") no-repeat;
+//   background-size: contain;
+//   // opacity: 0.8;
+// }
+
+// Cube
+
+.techCube {
+  display: block;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  object-fit: scale-down;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+
+  @media only screen and (max-width: 800px) {
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tech-cube {
+    margin-top: 10vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .tech-cube {
+    display: none;
+  }
+}
+
+.cube {
+  margin: auto;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  transform-style: preserve-3d;
+}
+
+.cube > div {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  // border: solid 1px white;
+  // background-color: rgba(249, 243, 237, 0.7);
+}
+
+.front {
+  transform: translateZ(50px);
+  display: flex;
+  align-items: center;
+}
+
+.front > img {
+  // width: 150px;
+  width: 50px;
+}
+.left > img {
+  height: 70% !important;
+}
+.back {
+  transform: translateZ(-100px) rotateY(180deg);
+  display: flex;
+  align-items: center;
+}
+
+.back > img {
+  // width: 150px;
+  width: 50px;
+}
+
+.right {
+  transform: rotateY(-270deg) translateX(100px);
+  transform-origin: top right;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.right > img {
+  // width: 150px;
+  width: 50px;
+}
+
+.left {
+  transform: rotateY(270deg) translateX(-100px);
+  transform-origin: center left;
+  display: flex;
+  align-items: center;
+}
+
+.left > img {
+  // width: 150px;
+  width: 50px;
+}
+
+.top {
+  transform: rotateX(-270deg) translateY(-100px);
+  transform-origin: top center;
+  display: flex;
+  align-items: center;
+}
+
+.top > img {
+  // width: 150px;
+  width: 50px;
+}
+
+.bottom {
+  transform: rotateX(270deg) translateY(100px);
+  transform-origin: bottom center;
+  display: flex;
+  align-items: center;
+}
+
+.bottom > img {
+  // width: 150px;
+  width: 50px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.cube {
+  animation: rotate 10s infinite linear;
+}
+
+/* adding hover effect */
+.techCube:hover .front {
+  transform: translateZ(150px);
+}
+
+.techCube:hover .back {
+  transform: translateZ(-200px) rotateY(180deg);
+}
+
+.techCube:hover .right {
+  transform: rotateY(-270deg) translateZ(100px) translateX(100px);
+}
+
+.techCube:hover .left {
+  transform: rotateY(270deg) translateZ(100px) translateX(-100px);
+}
+
+.techCube:hover .top {
+  transform: rotateX(-270deg) translateZ(100px) translateY(-100px);
+}
+
+.techCube:hover .bottom {
+  transform: rotateX(270deg) translateZ(100px) translateY(100px);
+}
+
+.cube > div {
+  transition: transform 0.2s ease-in;
+}

@@ -1,0 +1,30 @@
+.title {
+  background: #e815b7;
+  background: -webkit-linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  background: -moz-linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  background: linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: bold;
+}
+
+.aboutBtn {
+  // color: white;
+  // text-decoration: none;
+  // border-bottom: 1px solid white;
+  // display: inline;
+  // font-size: 0.9rem;
+  // padding: 0.2rem 0;
+  // -webkit-transition: all 0.3s ease-in-out;
+  // transition: all 0.3s ease-in-out;
+  // font-size: 0.9rem;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px double transparent;
+  background-image: linear-gradient(#0d0e21, #0d0e21),
+    radial-gradient(circle at left top, #016eda, #d900c0);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-color: transparent;
+  // padding: 0.2rem 0.5rem;
+}

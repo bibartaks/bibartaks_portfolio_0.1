@@ -1,0 +1,34 @@
+.title {
+  background: #e815b7;
+  background: -webkit-linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  background: -moz-linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  background: linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: bold;
+}
+
+.title {
+  background: #e815b7;
+  background: -webkit-linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  background: -moz-linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  background: linear-gradient(to right, #e815b7 0%, #d9d9d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: bold;
+}
+
+.contactBall {
+  animation: rotate 10s linear infinite; /* Apply the rotation animation */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); /* Start the rotation from 0 degrees */
+  }
+  100% {
+    transform: rotate(
+      360deg
+    ); /* End the rotation at 360 degrees (full circle) */
+  }
+}
