@@ -26,7 +26,7 @@ export default function Experience() {
               <span className={styles.experienceFont}>Developer</span>
             </h3>
             <h5 className="text-sm  opacity-90 text-gray-300 mb-5">
-              Aug 2021 - Sep 2023
+              Aug 2022 - Sep 2023
             </h5>
             <p className="text-white opacity-80 max-w-[100%] text-left lg:text-justify 2xl:text-justify xl:text-justify leading-[200%]">
               I led the transformation of Batayon Library's digital platform,
@@ -46,3 +46,12 @@ export default function Experience() {
     </div>
   )
 }
+
+
+I'm Bibarta, a 14-year-old front-end developer with a passion for creating
+captivating interfaces. Starting at age 10, I taught myself programming and earned
+scholarships from leading developer platforms. I enjoy combining artistry with
+
+technical expertise to build user-friendly experiences. I am proficient in HTML, CSS,
+JavaScript, React, and more. Now I am seeking a full-time role to contribute to a
+company's success. I have passion and love for cricket and animals.
