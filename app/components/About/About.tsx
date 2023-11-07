@@ -3,7 +3,6 @@ import { prosto_one } from "@/app/fonts"
 import React from "react"
 import styles from "./about.module.scss"
 import Link from "next/link"
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation"
 import Image from "next/image"
 
 export default function About() {
