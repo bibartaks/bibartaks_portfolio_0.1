@@ -7,7 +7,7 @@ import Link from "next/link"
 export default function Landing() {
   return (
     <header
-      className={`min-h-[auto] py-20 lg:min-h-[80vh] xl:min-h-[80vh] 2xl:min-h-[80vh] flex  justify-center  items-center ${styles.bg} `}
+      className={`min-h-[auto] pb-20 pt-20 lg:pt-[15rem] xl:pt-[15rem] 2xl:pt-[15rem] lg:min-h-[auto] xl:min-h-[auto] 2xl:min-h-[auto]  flex  justify-center  items-center ${styles.bg} `}
     >
       <div className="container max-w-[900px] mx-auto flex justify-between    items-center px-3">
         <div className="">
