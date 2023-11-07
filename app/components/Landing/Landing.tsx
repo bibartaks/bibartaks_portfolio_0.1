@@ -2,26 +2,50 @@ import React from "react"
 import Image from "next/image"
 import { prosto_one } from "@/app/fonts"
 import styles from "./landing.module.scss"
-import Link from "next/link"
 
 export default function Landing() {
   return (
     <header
-      className={`min-h-[auto] pb-20 pt-20 lg:pt-[15rem] xl:pt-[15rem] 2xl:pt-[15rem] lg:min-h-[auto] xl:min-h-[auto] 2xl:min-h-[auto]  flex  justify-center  items-center ${styles.bg} `}
+      className={`min-h-[auto] pb-20 pt-20 lg:pt-[10rem] xl:pt-[10rem] 2xl:pt-[10rem] lg:min-h-[auto] xl:min-h-[auto] 2xl:min-h-[auto]  flex  justify-center  items-center ${styles.bg} `}
     >
-      <div className="container max-w-[900px] mx-auto flex justify-between    items-center px-3">
+      <div className="container max-w-[534px] mx-auto flex flex-col justify-between    items-center px-3">
         <div className="">
-          <div className="flex items-center  space-x-5 mb-5">
-            <Image
-              src="/profile.jpg"
-              width={1000}
-              height={1000}
-              alt="profile image"
-              priority={true}
-              className={`${styles.profile} w-[92px] rounded-full border border-5`}
-              placeholder="blur"
-              loading="eager"
-            />
+          <div className="flex  items-center  space-x-5 mb-5">
+            <div className="rounded-full bg-gradient-to-tl from-purple-700/60 to-rose-400/60 shadow-lg p-[2px] ring-[5px] ring-purple-500/10">
+              <div className="rounded-full p-1 h-[92px] w-[92px]">
+                <Image
+                  // src="/profile 1 (7).png"
+                  src="https://res.cloudinary.com/dano2nyff/image/upload/v1699380350/yxrvwszingotthzcnqym.png"
+                  // src="https://res.cloudinary.com/dano2nyff/image/upload/v1699379889/bhptqal8kojhlb8riryy.jpg"
+                  // src="https://delba.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdelba%2Fimage%2Ftwitter_name%2Fc_thumb%2Cg_face%2Ch_380%2Cw_380%2Cq_100%2Fdelba_oliveira.jpg&w=64&q=95"
+                  // src="https://res.cloudinary.com/dano2nyff/image/upload/v1699370935/myvlurtqayoezo6pgnvs.png"
+                  width={1000}
+                  height={1000}
+                  alt="Profile image"
+                  priority={true}
+                  className=" rounded-full w-[100%]"
+                  // className={` w-[92px]  rounded-full  border-5 bg-gradient-to-tl from-purple-700/60 to-rose-400/60`}
+                />
+              </div>
+            </div>
+
+            {/* <div className="rounded-full bg-gradient-to-tl from-purple-700/60 to-rose-400/60 shadow-lg p-[1px] ring-5 ring-purple-500/10">
+              <div className="rounded-full p-1 h-16 w-16">
+                <img
+                  alt="A photo of Delba"
+                  //           srcSet="
+                  // /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdelba%2Fimage%2Ftwitter_name%2Fc_thumb%2Cg_face%2Ch_380%2Cw_380%2Cq_100%2Fdelba_oliveira.jpg&amp;w=64&amp;q=95 1x,
+                  // /_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdelba%2Fimage%2Ftwitter_name%2Fc_thumb%2Cg_face%2Ch_380%2Cw_380%2Cq_100%2Fdelba_oliveira.jpg&amp;w=128&amp;q=95 2x"
+                  src="https://res.cloudinary.com/dano2nyff/image/upload/v1699373589/s5qlt7839t9j7zgdj9zu.jpg"
+                  width={64}
+                  height={64}
+                  decoding="async"
+                  className="rounded-full"
+                  style={{ color: "transparent" }}
+                />
+              </div>
+            </div> */}
+
             <div>
               <h1
                 className={`${prosto_one.className} ${styles.title} text-[1.5rem] 	   lg:text-4xl xl:text-4xl 2xl:text-4xl text-bold text-white mb-2`}
@@ -35,20 +59,20 @@ export default function Landing() {
           </div>
 
           <p
-            className={` ${styles.aboutText} text-white max-w-[600px]   text-left text-[1rem] leading-[200%] text-left lg:text-justify xl:text-justify 2xl:text-justify mb-5`}
+            className={` ${styles.aboutText} text-white max-w-[100%]    text-left text-[1rem] leading-[200%] text-left lg:text-justify xl:text-justify 2xl:text-justify mb-5`}
           >
-            I love building things with code in the world of full-stack
-            development. With a deep understanding of the latest web
-            technologies and an unwavering commitment to staying up-to-date with
-            industry trends, I always strive to craft seamless web applications
-            with user-friendly experiences.
+            Fueled by a deep understanding of the latest web technologies and a
+            commitment to staying up-to-date with industry trends, I love
+            building things in the world of full-stack development. With one
+            year plus experience I always strive to craft seamless web
+            applications with user-friendly experiences.
           </p>
           {/* <Link href="#" className={`${styles.landingLink}  `}>
             <span className="opacity-90">About Me </span>
           </Link> */}
         </div>
         {/* <div className=" absolute z-[-1] opacity-40  left-[0%] top-[0%]"> */}
-        <div className="   hidden  xl:block 2xl:block">
+        <div className=" mt-20   hidden  xl:block 2xl:block">
           <div className={styles.techCube}>
             <div className={styles.cube}>
               <div className={styles.front}>

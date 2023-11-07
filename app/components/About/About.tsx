@@ -15,8 +15,7 @@ export default function About() {
             width={1000}
             height={1000}
             className=" opacity-80 block w-[600px] h-[auto]"
-            priority={true}
-            alt="gradient balls"
+            alt="gradient ball"
           />
         </div>
         <h1 className="text-2xl font-bold mb-4">

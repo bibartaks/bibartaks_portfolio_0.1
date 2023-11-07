@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Bibarta K. Sarkar | Fullstack Developer",
   description:
-    "Bibarta is a 14-year-old full-stack developer with one year of experience in JavaScript, TypeScript, React, TailwindCSS, Node.js, Firebase, MongoDB and Figma. He started at the age of 10 as a self-taught learner, later enrolling in advanced courses with prestigious platforms. He loves to blend his skills in the most creative way possible. Beyond coding, he excels in cricket in domestic tournaments and finds solace in caring for animals.",
+    "Bibarta is a 14-year-old full-stack developer with one year plus of experience in JavaScript, TypeScript, React, TailwindCSS, Node.js, Firebase, MongoDB and Figma. He started at the age of 10 as a self-taught learner, later enrolling in advanced courses with prestigious platforms. He loves to blend his skills in the most creative way possible. Beyond coding, he excels in cricket in domestic tournaments and finds solace in caring for animals.",
   keywords: [
     "frontend developer",
     "web developer",
@@ -62,19 +62,21 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bibarta K. Sarkar | Fullstack Developer",
     description:
-      "Bibarta is a 14-year-old full-stack developer with one year of experience in JavaScript, TypeScript, React, TailwindCSS, Node.js, Firebase, MongoDB and Figma. He started at the age of 10 as a self-taught learner, later enrolling in advanced courses with prestigious platforms. He loves to blend his skills in the most creative way possible. Beyond coding, he excels in cricket in domestic tournaments and finds solace in caring for animals.",
+      "Bibarta is a 14-year-old full-stack developer with one year plus of experience in JavaScript, TypeScript, React, TailwindCSS, Node.js, Firebase, MongoDB and Figma. He started at the age of 10 as a self-taught learner, later enrolling in advanced courses with prestigious platforms. He loves to blend his skills in the most creative way possible. Beyond coding, he excels in cricket in domestic tournaments and finds solace in caring for animals.",
     url: "bibartaksarkar.com",
     type: "website",
-    // images: "https://www.bibartaksarkar.com/banner.png",
+    images:
+      "https://res.cloudinary.com/dano2nyff/image/upload/v1699375559/hnbvplwvhbghjvajqtkm.jpg",
     siteName: "Bibarta K Sarkar",
   },
   twitter: {
     title: "Bibarta K. Sarkar | Fullstack Developer",
     creator: "@bibartaks",
     card: "summary_large_image",
-    // images: "https://i.ibb.co/d62FhQc/opengraph-image.png",
+    images:
+      "https://res.cloudinary.com/dano2nyff/image/upload/v1699375559/hnbvplwvhbghjvajqtkm.jpg",
     description:
-      "Bibarta is a 14-year-old full-stack developer with one year of experience in JavaScript, TypeScript, React, TailwindCSS, Node.js, Firebase, MongoDB and Figma. He started at the age of 10 as a self-taught learner, later enrolling in advanced courses with prestigious platforms. He loves to blend his skills in the most creative way possible. Beyond coding, he excels in cricket in domestic tournaments and finds solace in caring for animals.",
+      "Bibarta is a 14-year-old full-stack developer with one year plus of experience in JavaScript, TypeScript, React, TailwindCSS, Node.js, Firebase, MongoDB and Figma. He started at the age of 10 as a self-taught learner, later enrolling in advanced courses with prestigious platforms. He loves to blend his skills in the most creative way possible. Beyond coding, he excels in cricket in domestic tournaments and finds solace in caring for animals.",
   },
 }
 

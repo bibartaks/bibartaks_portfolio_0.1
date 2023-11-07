@@ -31,11 +31,13 @@ export default function Projects() {
               gap: 20,
             }}
           >
-            <SplideSlide>
+            <SplideSlide role="listitem">
               <div className="flex flex-col mx-auto w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className=" mx-auto  h-[100%]">
                   <Image
-                    src="/project_1.png"
+                    // src="/project_1.png"
+                    src="https://res.cloudinary.com/dano2nyff/image/upload/v1699375732/dmus4u19gjdtv5ejl7pg.png"
+                    // src="/project_1.png"
                     width={1000}
                     height={1000}
                     alt="Project one Image"
@@ -69,15 +71,16 @@ export default function Projects() {
                 </div>
               </div>
             </SplideSlide>
-            <SplideSlide>
+            <SplideSlide role="listitem">
               <div className=" flex flex-col w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className="mx-auto">
                   <Image
-                    src="/project_2.png"
+                    // src="/project_2.png"
+                    src="https://res.cloudinary.com/dano2nyff/image/upload/v1699375731/oawldzlwzozfeg6jgau1.png"
                     width={1000}
                     height={1000}
                     alt="Project two Image"
-                    className="pl-0 mb-2 hover:opacity-90 w-[400px] lg:w-[500px] h-[100%]"
+                    className="pl-0 mb-2 hover:opacity-90 w-[400px] lg:w-[500px] h-[280px]"
                   />
                 </div>
                 <h1
@@ -106,11 +109,12 @@ export default function Projects() {
                 </div>
               </div>
             </SplideSlide>
-            <SplideSlide>
+            <SplideSlide role="listitem">
               <div className=" flex flex-col w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className="mx-auto">
                   <Image
-                    src="/project_3.png"
+                    // src="/project_3.png"
+                    src="https://res.cloudinary.com/dano2nyff/image/upload/v1699375733/hrgeywpzplfmlhljeyet.png"
                     width={1000}
                     height={1000}
                     alt="Project three Image"
