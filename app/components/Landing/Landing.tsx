@@ -19,6 +19,8 @@ export default function Landing() {
               alt="profile image"
               priority={true}
               className={`${styles.profile} w-[92px] rounded-full border border-5`}
+              placeholder="blur"
+              loading="eager"
             />
             <div>
               <h1

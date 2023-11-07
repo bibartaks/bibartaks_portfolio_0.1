@@ -35,7 +35,7 @@ export default function Projects() {
               <div className="flex flex-col mx-auto w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className=" mx-auto  h-[100%]">
                   <Image
-                    src="/project_1_cropped.png"
+                    src="/project_1.png"
                     width={1000}
                     height={1000}
                     alt="Project one Image"
@@ -73,7 +73,7 @@ export default function Projects() {
               <div className=" flex flex-col w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className="mx-auto">
                   <Image
-                    src="/project_2_new.png"
+                    src="/project_2.png"
                     width={1000}
                     height={1000}
                     alt="Project two Image"
