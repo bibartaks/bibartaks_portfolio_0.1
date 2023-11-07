@@ -16,6 +16,7 @@ export default function About() {
             width={1000}
             height={1000}
             className=" opacity-80 block w-[600px] h-[auto]"
+            priority={true}
             alt="gradient balls"
           />
         </div>
@@ -39,14 +40,13 @@ export default function About() {
           ever-evolving industry trends, I can ensure my work remains at the
           forefront of innovation. Every day I've been honing my skills and
           learning JavaScript, TypeScript, React, TailwindCSS, Node.js,
-          Firebase, MongoDB, and other frameworks. Recently I've successfully
-          completed another advanced frontend development course under Scrimba.
-          I'm seeking a full-time role where I can help a company achieve their
-          goals. Beyond coding, Cricket has been a cherished pastime for me
-          since an early age. As a valuable team player, I have actively
-          participated in various age-based domestic district cricket
-          tournaments. Additionally, my love for animals shines through, as I
-          find solace and joy in petting and caring for them.
+          Firebase, MongoDB, and other frameworks. I'm seeking a full-time role
+          where I can help a company achieve their goals. Beyond coding, Cricket
+          has been a cherished pastime for me since an early age. As a valuable
+          team player, I have actively participated in various age-based
+          domestic district cricket tournaments. Additionally, my love for
+          animals shines through, as I find solace and joy in petting and caring
+          for them.
         </p>
         <Link
           className={`${styles.aboutBtn} px-3 py-2 text-sm`}

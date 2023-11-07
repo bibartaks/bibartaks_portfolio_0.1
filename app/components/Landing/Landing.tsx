@@ -33,7 +33,7 @@ export default function Landing() {
           </div>
 
           <p
-            className={` ${styles.aboutText} text-white max-w-[600px] text-[1rem] leading-[200%] text-left lg:text-justify xl:text-justify 2xl:text-justify mb-5`}
+            className={` ${styles.aboutText} text-white max-w-[600px]   text-left text-[1rem] leading-[200%] text-left lg:text-justify xl:text-justify 2xl:text-justify mb-5`}
           >
             I love building things with code in the world of full-stack
             development. With a deep understanding of the latest web

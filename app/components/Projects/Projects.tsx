@@ -28,11 +28,11 @@ export default function Projects() {
               autoplay: true,
               interval: 3000,
               perPage: 2,
-              gap: 50,
+              gap: 20,
             }}
           >
             <SplideSlide>
-              <div className="flex flex-col mx-auto w-[90%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
+              <div className="flex flex-col mx-auto w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className=" mx-auto  h-[100%]">
                   <Image
                     src="/project_1_cropped.png"
@@ -70,7 +70,7 @@ export default function Projects() {
               </div>
             </SplideSlide>
             <SplideSlide>
-              <div className=" flex flex-col w-[90%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
+              <div className=" flex flex-col w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className="mx-auto">
                   <Image
                     src="/project_2_new.png"
@@ -107,7 +107,7 @@ export default function Projects() {
               </div>
             </SplideSlide>
             <SplideSlide>
-              <div className=" flex flex-col w-[90%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
+              <div className=" flex flex-col w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className="mx-auto">
                   <Image
                     src="/project_3.png"
