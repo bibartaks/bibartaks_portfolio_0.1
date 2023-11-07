@@ -46,12 +46,3 @@ export default function Experience() {
     </div>
   )
 }
-
-
-I'm Bibarta, a 14-year-old front-end developer with a passion for creating
-captivating interfaces. Starting at age 10, I taught myself programming and earned
-scholarships from leading developer platforms. I enjoy combining artistry with
-
-technical expertise to build user-friendly experiences. I am proficient in HTML, CSS,
-JavaScript, React, and more. Now I am seeking a full-time role to contribute to a
-company's success. I have passion and love for cricket and animals.
