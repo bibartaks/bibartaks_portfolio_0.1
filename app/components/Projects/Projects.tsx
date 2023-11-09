@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect } from "react"
+import React from "react"
 import styles from "./projects.module.scss"
 import { prosto_one } from "@/app/fonts"
 import Image from "next/image"
@@ -29,15 +29,14 @@ export default function Projects() {
               interval: 3000,
               perPage: 2,
               gap: 20,
+              keyboard: "global",
             }}
           >
             <SplideSlide role="listitem">
               <div className="flex flex-col mx-auto w-[100%] max-w-[356px] lg:max-w-[456px] xl:max-w-[456px] 2xl:max-w-[456px]">
                 <div className=" mx-auto  h-[100%]">
                   <Image
-                    // src="/project_1.png"
                     src="https://res.cloudinary.com/dano2nyff/image/upload/v1699375732/dmus4u19gjdtv5ejl7pg.png"
-                    // src="/project_1.png"
                     width={1000}
                     height={1000}
                     alt="Project one Image"
@@ -148,19 +147,6 @@ export default function Projects() {
                 </div>
               </div>
             </SplideSlide>
-            {/* <SplideSlide>
-              <div className="ml-0">
-                <Image
-                  src="/project_2.png"
-                  width={500}
-                  height={500}
-                  alt="project_1 image"
-                  className="pl-0"
-                />
-              </div>
-              <h1 className={styles.projectFont}>Coinify</h1>
-              <p></p>
-            </SplideSlide> */}
           </Splide>
         </div>
       </div>

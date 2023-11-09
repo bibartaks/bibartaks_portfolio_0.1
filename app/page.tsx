@@ -32,7 +32,6 @@ export default function Home() {
       <Landing />
       <About />
       <Skills />
-
       <Projects />
       <Experience />
       <Contact />
