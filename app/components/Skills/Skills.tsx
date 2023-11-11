@@ -18,6 +18,13 @@ export default function Skills() {
           >
             {/* Skills  Item */}
             <div className="language">
+              <Image
+                src="/programming.svg"
+                width={85}
+                height={85}
+                alt="s"
+                className="mb-5"
+              />
               <h1 className="mb-2">
                 <span
                   className={`${prosto_one.className} text-[1.4rem] ${styles.skillFont} `}
@@ -34,6 +41,13 @@ export default function Skills() {
               </ul>
             </div>
             <div className="language">
+              <Image
+                src="/technology.svg"
+                width={85}
+                height={85}
+                alt="s"
+                className="mb-5"
+              />
               <h1 className="mb-2">
                 <span
                   className={`${prosto_one.className} text-[1.4rem] ${styles.skillFont} `}
@@ -56,6 +70,13 @@ export default function Skills() {
               </ul>
             </div>
             <div className="language">
+              <Image
+                src="/framework.svg"
+                width={85}
+                height={85}
+                alt="s"
+                className="mb-5"
+              />
               <h1 className="mb-2">
                 <span
                   className={`${prosto_one.className} text-[1.4rem] ${styles.skillFont} `}

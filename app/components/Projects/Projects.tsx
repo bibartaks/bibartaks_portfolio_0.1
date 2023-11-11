@@ -40,7 +40,9 @@ export default function Projects() {
                     width={1000}
                     height={1000}
                     alt="Project one Image"
-                    className="pl-0 mb-2 hover:opacity-90 w-[400px]  lg:w-[500px] h-[100%] "
+                    // className="pl-0 mb-2 hover:opacity-90 w-[400px]  lg:w-[500px]   h-[280px]"
+                    className="pl-0 mb-2 hover:opacity-90 w-[400px] lg:w-[500px] h-[100%]  block mr-0"
+                    priority={true}
                   />
                 </div>
                 <h1
@@ -79,7 +81,9 @@ export default function Projects() {
                     width={1000}
                     height={1000}
                     alt="Project two Image"
-                    className="pl-0 mb-2 hover:opacity-90 w-[400px] lg:w-[500px] h-[280px]"
+                    // className="pl-0 mb-2 hover:opacity-90 w-[400px] lg:w-[500px] h-[280px]"
+                    className="pl-0 mb-2 hover:opacity-90 w-[400px] lg:w-[500px] h-[100%]  block mr-0"
+                    priority
                   />
                 </div>
                 <h1
@@ -118,6 +122,7 @@ export default function Projects() {
                     height={1000}
                     alt="Project three Image"
                     className="pl-0 mb-2 hover:opacity-90 w-[400px] lg:w-[500px] h-[100%]  block mr-0"
+                    priority
                   />
                 </div>
                 <h1

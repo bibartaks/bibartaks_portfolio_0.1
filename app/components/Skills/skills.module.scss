@@ -9,38 +9,99 @@
 }
 
 .skillFont {
-  background: blue;
-  background: -webkit-linear-gradient(
-    left,
-    rgb(50, 50, 202) -10%,
-    #d9d9d9 100%
-  );
-  background: -moz-linear-gradient(left, rgb(50, 50, 202) -10%, #d9d9d9 100%);
-  background: linear-gradient(to right, rgb(50, 50, 202) -10%, #d9d9d9 100%);
+  // background: blue;
+  // background: -webkit-linear-gradient(
+  //   left,
+  //   rgb(50, 50, 202) -10%,
+  //   #d9d9d9 100%
+  // );
+  // background: -moz-linear-gradient(left, rgb(50, 50, 202) -10%, #d9d9d9 100%);
+  // background: linear-gradient(to right, rgb(50, 50, 202) -10%, #d9d9d9 100%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  background: #e815b7;
+  background: -webkit-linear-gradient(left, gray 0%, #e815b7 100%);
+  background: -moz-linear-gradient(left, gray 0%, #e815b7 100%);
+  background: linear-gradient(to right, gray 0%, #e815b7 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  // font-weight: bold;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
+// .skillsBg {
+//   // background-color: rgb(28, 25, 23);
+//   background: url("/skills.png");
+
+//   border-radius: 1rem;
+// }
+
+// .skillsBg {
+//   position: relative; /* Make sure the parent container is positioned */
+//   border-radius: 1rem;
+// }
+
+// .skillsBg::before {
+//   content: ""; /* Create an empty content for the pseudo-element */
+//   position: absolute; /* Position the pseudo-element absolutely */
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   z-index: -1; /* Place the pseudo-element behind the main content */
+//   // background: url("/skills.png") center/cover; /* Set the image as background */
+//   border-radius: inherit; /* Inherit the border-radius from the parent */
+//   opacity: 0.1;
+//   background: url("https://res.cloudinary.com/dano2nyff/image/upload/v1699376015/oueuanu7obcliukv5oe2.jpg")
+//     center/cover;
+//   // filter: blur(60px);
+// }
+
 .skillsBg {
-  background-color: rgb(28, 25, 23);
+  position: relative; /* Make sure the parent container is positioned */
   border-radius: 1rem;
+}
+
+.skillsBg::before {
+  content: ""; /* Create an empty content for the pseudo-element */
+  position: absolute; /* Position the pseudo-element absolutely */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1; /* Place the pseudo-element behind the main content */
+  // background: url("https://res.cloudinary.com/dano2nyff/image/upload/v1699376015/oueuanu7obcliukv5oe2.jpg");
+  background-color: rgb(28, 25, 23);
+  opacity: 0.8;
+  border-radius: inherit; /* Inherit the border-radius from the parent */
 }
 
 .skillsBorder {
   position: relative;
-  padding: 0.1rem;
+  // padding: 0.1rem;
+  padding: 0rem;
   z-index: 2;
+  // background: linear-gradient(
+  //   135deg,
+  //   black,
+  //   #5e021f,
+  //   #110498,
+  //   #f100f170,
+  //   #05004c,
+  //   #b10000
+  // );
   background: linear-gradient(
     135deg,
-    red,
-    #e4205d,
-    #4a3ece,
-    #f100f1,
-    #1000ee,
-    #b10000
+    #000000,
+    #2d0013,
+    #04007b,
+    #8c007e,
+    #020029,
+    #590000
   );
+
+  // opacity: 0.2;
   -webkit-animation: animatedgradient 5s ease infinite alternate;
   animation: animatedgradient 5s ease infinite alternate;
   background-size: 300% 300%;
@@ -58,17 +119,18 @@
   border-radius: 1rem;
   background: linear-gradient(
     135deg,
-    red,
-    #e4205d,
-    #4a3ece,
-    #f100f1,
+    rgb(28, 25, 23),
+    // #ffb800,
+    // #e815b793,
+    #ad00ff,
     #1000ee,
-    #b10000
+    #ff003d,
+    #ffb800
   );
   -webkit-animation: animatedgradient 5s ease infinite alternate;
   animation: animatedgradient 5s ease infinite alternate;
   background-size: 300% 300%;
-  filter: blur(5px);
+  filter: blur(3px);
 }
 
 @keyframes animatedgradient {

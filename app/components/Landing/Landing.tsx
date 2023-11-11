@@ -6,13 +6,13 @@ import styles from "./landing.module.scss"
 export default function Landing() {
   return (
     <header
-      className={`min-h-[auto] pb-20 pt-20 lg:pt-[10rem] xl:pt-[10rem] 2xl:pt-[10rem] lg:min-h-[auto] xl:min-h-[auto] 2xl:min-h-[auto]  flex  justify-center  items-center ${styles.bg} `}
+      className={`min-h-[auto] pb-20 pt-20 lg:pt-[10rem] xl:pt-[10rem] 2xl:pt-[11rem] lg:min-h-[auto] xl:min-h-[auto] 2xl:min-h-[auto]  flex  justify-center  items-center ${styles.bg} `}
     >
-      <div className="container max-w-[534px] mx-auto flex flex-col justify-between    items-center px-3">
+      <div className="container max-w-[1100px] mx-auto flex flex-col justify-between    items-center px-3">
         <div className="">
-          <div className="flex  items-center  space-x-5 mb-5">
-            <div className="rounded-full bg-gradient-to-tl from-purple-700/60 to-rose-400/60 shadow-lg p-[2px] ring-[5px] ring-purple-500/10">
-              <div className="rounded-full p-1 h-[92px] w-[92px]">
+          <div className="flex flex-col  items-center  justify-center  space-x-0 mb-5">
+            <div className="rounded-full bg-gradient-to-tl mb-10 from-purple-700/60 to-rose-400/60 shadow-lg p-[2px] ring-[5px] ring-purple-500/10">
+              <div className="rounded-full p-1 h-[92px] w-[92px] ">
                 <Image
                   src="https://res.cloudinary.com/dano2nyff/image/upload/v1699380350/yxrvwszingotthzcnqym.png"
                   width={1000}
@@ -24,26 +24,31 @@ export default function Landing() {
               </div>
             </div>
 
-            <div>
+            <div className="mx-auto">
               <h1
-                className={`${prosto_one.className} ${styles.title} text-[1.5rem] 	   lg:text-4xl xl:text-4xl 2xl:text-4xl text-bold text-white mb-2`}
+                className={`${prosto_one.className} ${styles.title} 	text-bold text-white mb-0`}
               >
-                <span className={styles.title}>Bibarta K. Sarkar</span>
+                <span
+                  className={`${styles.title} text-[2rem] lg:text-[3rem] xl:text-[3rem] 2xl:text-[3rem]`}
+                >
+                  Bibarta K. Sarkar
+                </span>
               </h1>
-              <p className="text-white text-[1rem] lg:text-[1.1rem] xl:text-[1.1rem] 2xl:text-[1.1rem] font-semibold tracking-wide">
-                Full stack Developer
+              <p
+                className={`  ${prosto_one.className} text-white text-center  text-[1rem] lg:text-[1.5rem] xl:text-[1.5rem] 2xl:text-[1.5rem] font-semibold tracking-wide`}
+              >
+                Full-stack Developer
               </p>
             </div>
           </div>
 
           <p
-            className={` ${styles.aboutText} text-white max-w-[100%] text-[1rem] leading-[200%] text-left lg:text-justify xl:text-justify 2xl:text-justify mb-5`}
+            className={` ${styles.aboutText}  text-white max-w-[100%]  text-[1rem] leading-[200%] text-center  mb-5`}
           >
-            Fueled by a deep understanding of the latest web technologies and a
-            commitment to staying up-to-date with industry trends, I love
-            building things in the world of full-stack development. With one
-            year plus experience I always strive to craft seamless web
-            applications with user-friendly experiences.
+            {/* I'm passionate about crafting experiences that are engaging,
+            accessible, and user-centric. */}
+            With over a year of experience, I am dedicated to creating seamless,
+            user-friendly web applications using the latest technologies.
           </p>
         </div>
         <div className=" mt-20   hidden  xl:block 2xl:block">
