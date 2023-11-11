@@ -11,8 +11,8 @@ export default function Landing() {
       <div className="container max-w-[1100px] mx-auto flex flex-col justify-between    items-center px-3">
         <div className="">
           <div className="flex flex-col  items-center  justify-center  space-x-0 mb-5">
-            <div className="rounded-full bg-gradient-to-tl mb-10 from-purple-700/60 to-rose-400/60 shadow-lg p-[2px] ring-[5px] ring-purple-500/10">
-              <div className="rounded-full p-1 h-[92px] w-[92px] ">
+            <div className="rounded-full bg-gradient-to-tl mb-5 from-purple-700/60 to-rose-400/60 shadow-lg p-[2px] ring-[5px] lg:ring-[10px] xl:ring-[10px] 2xl:ring-[10px] ring-purple-500/10">
+              <div className="rounded-full p-1 h-[92px] w-[92px] lg:h-[152px] xl:h-[152px] 2xl:h-[152px] lg:w-[152px] xl:w-[152px] 2xl:w-[152px]">
                 <Image
                   src="https://res.cloudinary.com/dano2nyff/image/upload/v1699380350/yxrvwszingotthzcnqym.png"
                   width={1000}
