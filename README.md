@@ -12,9 +12,8 @@ Welcome to the GitHub repository for my personal website. This repository contai
 
 Hi there! I'm Bibarta, a 14-year-old full-stack developer. Starting at age 10 as a self-taught programmer, I quickly captured my father's attention, who enrolled me in a prestigious online platform for learning code. Later, Scholarships from various world-leading developer platforms soon followed. My mother often says I had a keen interest in drawing & playing games. And so, she bought me a tablet to fuel my artistic spirit. Now, as a front-end developer, I enjoy combining artistic flair with technical expertise to create captivating and user-friendly interfaces. With the latest web technologies and a dedication to staying up-to-date with the ever-evolving industry trends, I can ensure my work remains at the forefront of innovation. Every day I've been honing my skills and learning JavaScript, TypeScript, React, TailwindCSS, Node.js, Firebase, MongoDB, and other frameworks. I'm seeking a full-time role where I can help a company achieve their goals. Beyond coding, Cricket has been a cherished pastime for me since an early age. As a valuable team player, I have actively participated in various age-based domestic district cricket tournaments. Additionally, my love for animals shines through, as I find solace and joy in petting and caring for them.
 
-#### Links:
-- [Live Demo](https://bibartaksarkar.com)
-- [GitHub Repository](https://github.com/bibartaks/bibartaks_portfolio_0.1)
+## Demo:
+- Live version of this site: [Live Demo](https://bibartaksarkar.com)
 
 ## Technologies Used
 
@@ -42,4 +41,6 @@ Hi there! I'm Bibarta, a 14-year-old full-stack developer. Starting at age 10 as
    ```bash
    npm run dev
 
-This project is licensed under the MIT License.
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
