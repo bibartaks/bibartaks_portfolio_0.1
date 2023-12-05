@@ -17,7 +17,7 @@ Hi there! I'm Bibarta, a 14-year-old full-stack developer. Starting at age 10 as
 
 ## Technologies Used
 
-- React.js, Next.js, TailwindCSS, CSS.
+- `React.js`, `Next.js`, `TailwindCSS`, `CSS`.
 
 ## Installation
 
