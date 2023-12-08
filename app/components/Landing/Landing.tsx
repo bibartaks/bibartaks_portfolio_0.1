@@ -6,7 +6,7 @@ import styles from "./landing.module.scss"
 export default function Landing() {
   return (
     <header
-      className={`min-h-[auto] pb-20 pt-20 lg:pt-[10rem] xl:pt-[10rem] 2xl:pt-[11rem] lg:min-h-[auto] xl:min-h-[auto] 2xl:min-h-[auto]  flex  justify-center  items-center ${styles.bg} `}
+      className={`min-h-[auto] pb-10 pt-20 lg:pt-[10rem] xl:pt-[10rem] 2xl:pt-[11rem] lg:min-h-[auto] xl:min-h-[auto] 2xl:min-h-[auto]  flex  justify-center  items-center ${styles.bg} `}
     >
       <div className="container max-w-[1100px] mx-auto flex flex-col justify-between    items-center px-3">
         <div className="">
@@ -51,7 +51,7 @@ export default function Landing() {
             user-friendly web applications using the latest technologies. */}
           </p>
         </div>
-        <div className=" mt-20   hidden  xl:block 2xl:block">
+        {/* <div className=" mt-20   hidden  xl:block 2xl:block">
           <div className={styles.techCube}>
             <div className={styles.cube}>
               <div className={styles.front}>
@@ -206,7 +206,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* </div> */}
       </div>
     </header>
