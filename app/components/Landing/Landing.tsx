@@ -11,8 +11,8 @@ export default function Landing() {
       <div className="container max-w-[1100px] mx-auto flex flex-col justify-between    items-center px-3">
         <div className="">
           <div className="flex flex-col  items-center  justify-center  space-x-0 mb-5">
-            <div className="rounded-full bg-gradient-to-tl mb-5 from-purple-700/60 to-rose-400/60 shadow-lg p-[2px] ring-[5px] lg:ring-[10px] xl:ring-[10px] 2xl:ring-[10px] ring-purple-500/10">
-              <div className="rounded-full p-1 h-[92px] w-[92px] lg:h-[152px] xl:h-[152px] 2xl:h-[152px] lg:w-[152px] xl:w-[152px] 2xl:w-[152px]">
+            <div className="rounded-full bg-gradient-to-tl mb-5 from-purple-700/60 to-rose-400/60 shadow-lg p-[2px] ring-[5px] lg:ring-[7px] xl:ring-[7px] 2xl:ring-[7px] ring-purple-500/10">
+              <div className="rounded-full p-1 h-[52px] w-[52px] lg:h-[100px] xl:h-[100px] 2xl:h-[100px] lg:w-[100px] xl:w-[100px] 2xl:w-[100px]">
                 <Image
                   src="https://res.cloudinary.com/dano2nyff/image/upload/v1699380350/yxrvwszingotthzcnqym.png"
                   width={1000}
@@ -29,13 +29,13 @@ export default function Landing() {
                 className={`${prosto_one.className} ${styles.title} 	text-bold text-white mb-0`}
               >
                 <span
-                  className={`${styles.title} text-[2rem] lg:text-[3rem] xl:text-[3rem] 2xl:text-[3rem]`}
+                  className={`${styles.title} text-[2rem] lg:text-[2.5rem] xl:text-[2.5rem] 2xl:text-[2.5rem]`}
                 >
                   Bibarta K. Sarkar
                 </span>
               </h1>
               <p
-                className={`  ${prosto_one.className} text-white text-center  text-[1rem] lg:text-[1.5rem] xl:text-[1.5rem] 2xl:text-[1.5rem] font-semibold tracking-wide`}
+                className={`  ${prosto_one.className} text-white text-center  text-[1rem] lg:text-[1.2rem] xl:text-[1.2rem] 2xl:text-[1.2rem] font-semibold tracking-wide`}
               >
                 Full-stack Developer
               </p>
@@ -43,12 +43,12 @@ export default function Landing() {
           </div>
 
           <p
-            className={` ${styles.aboutText}  text-white max-w-[100%]  text-[1rem] leading-[200%] text-center  mb-5`}
+            className={` ${styles.aboutText}  text-white max-w-[100%]  text-[1rem] leading-[200%] text-center  mb-2`}
           >
             {/* I'm passionate about crafting experiences that are engaging,
             accessible, and user-centric. */}
-            With over a year of experience, I am dedicated to creating seamless,
-            user-friendly web applications using the latest technologies.
+            {/* With over a year of experience, I am dedicated to creating seamless,
+            user-friendly web applications using the latest technologies. */}
           </p>
         </div>
         <div className=" mt-20   hidden  xl:block 2xl:block">
