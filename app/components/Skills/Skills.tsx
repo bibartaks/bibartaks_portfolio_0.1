@@ -1,7 +1,7 @@
-import React from "react"
-import styles from "./skills.module.scss"
-import { prosto_one } from "@/app/fonts"
-import Image from "next/image"
+import React from 'react'
+import styles from './skills.module.scss'
+import { prosto_one } from '@/app/fonts'
+import Image from 'next/image'
 
 export default function Skills() {
   return (
@@ -59,11 +59,11 @@ export default function Skills() {
                 <li>React.js</li>
                 <li>Next.js</li>
                 <li>Node.js</li>
+                <li>Express.js</li>
                 <li>MongoDB</li>
                 <li>TailwindCSS</li>
                 <li>Material UI</li>
                 <li>Radix UI</li>
-                <li>ShadCn UI</li>
                 <li>Vite</li>
                 <li>Firebase SDK</li>
                 <li>D3.js</li>

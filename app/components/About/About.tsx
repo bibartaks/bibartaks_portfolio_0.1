@@ -24,7 +24,7 @@ export default function About() {
         </h1>
 
         <p className=" leading-[200%] opacity-80 text-left lg:text-justify xl:text-justify 2xl:text-justify mb-5">
-          Hi there! I'm Bibarta,a full-stack developer. Starting at age 10 as a
+          {/* Hi there! I'm Bibarta,a full-stack developer. Starting at age 10 as a
           self-taught programmer, I quickly captured my father's attention, who
           enrolled me in a prestigious online platform for learning code. Later,
           Scholarships from various world-leading developer platforms soon
@@ -42,7 +42,29 @@ export default function About() {
           since an early age. As a valuable team player, I have actively
           participated in various age-based domestic district cricket
           tournaments. Additionally, my love for animals shines through, as I
-          find solace and joy in petting and caring for them.
+          find solace and joy in petting and caring for them. */}
+          Hello! I'm Bibarta Kumar Sarkar, a passionate full-stack developer
+          with a journey that began at the age of 10 when I delved into
+          programming as a self-taught enthusiast. My early aptitude for coding
+          caught my father's attention, leading to enrollment in a prestigious
+          online platform that fueled my love for coding. Subsequently,
+          scholarships from renowned developer platforms furthered my
+          educational journey. While my initial interests included drawing and
+          gaming, my mother nurtured my artistic spirit by providing a tablet.
+          Today, as a full-stack developer, I merge artistic flair with
+          technical expertise to craft captivating and user-friendly interfaces.
+          Keeping abreast of the latest web technologies and industry trends is
+          paramount to me, ensuring my work remains innovative. I am proficient
+          in JavaScript, TypeScript, ReactJS, TailWindCSS, NextJS, Node.js,
+          Firebase, Supabase, MongoDB, and more. Seeking a full-time role, I
+          aspire to contribute my skills and dedication to help a company
+          achieve its goals. Beyond coding, cricket has been a cherished pastime
+          since my early years, and I actively participate in age-based domestic
+          district cricket tournaments, embodying the spirit of a valuable team
+          player. Aside from my tech pursuits, my love for animals is evident as
+          I find solace and joy in petting and caring for them. I bring a
+          holistic approach to both my professional and personal life, aiming to
+          make meaningful contributions wherever I go.
         </p>
         <Link
           className={`${styles.aboutBtn} px-3 py-2 text-sm`}

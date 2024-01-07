@@ -1,12 +1,12 @@
-import Link from "next/link"
-import React from "react"
+import Link from 'next/link'
+import React from 'react'
 
 export default function Footer() {
   return (
     <footer className="border-t border-gray-500">
       <div className="contaienr max-w-[1100px] mx-auto py-3 px-3 flex justify-between flex-col space-y-2 lg:flex-row lg:space-y-0 xl:flex-row xl:space-y-0 2xl:flex-row 2xl:space-y-0 items-center">
         <span className="text-white opacity-80">
-          &copy; 2023 Bibarta K. Sarkar. All rights reserved.
+          &copy; 2024 Bibarta K. Sarkar. All rights reserved.
         </span>
         {/* Footer Icons */}
         <div className="flex space-x-5">
