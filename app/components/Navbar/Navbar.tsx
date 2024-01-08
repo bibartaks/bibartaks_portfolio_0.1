@@ -1,9 +1,9 @@
-"use client"
+'use client'
 
-import { prosto_one } from "@/app/fonts"
-import Link from "next/link"
-import React, { useState, useEffect } from "react"
-import styles from "./navbar.module.scss"
+import { prosto_one } from '@/app/fonts'
+import Link from 'next/link'
+import React, { useState, useEffect } from 'react'
+import styles from './navbar.module.scss'
 
 export default function Navbar() {
   const [scrolling, setScrolling] = useState(false)
@@ -17,17 +17,17 @@ export default function Navbar() {
       }
     }
 
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener('scroll', handleScroll)
 
     return () => {
-      window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener('scroll', handleScroll)
     }
   }, [])
 
   const navClass = `${
     styles.navBg
   } flex flex-col backdrop-blur-2xl text-white justify-center items-center ml-0 mr-0 w-auto px-2 mt-5 py-4 rounded-full   transition hidden lg:flex xl:flex 2xl:flex ${
-    scrolling ? styles.borderOnScroll : ""
+    scrolling ? styles.borderOnScroll : ''
   }`
 
   return (
@@ -45,7 +45,7 @@ export default function Navbar() {
         <ul className={` ${prosto_one.className} flex  space-x-4`}>
           <li>
             <Link
-              href="#"
+              href="//"
               className={` px-4 py-2 rounded-full  ${styles.navLinks}`}
             >
               Home
@@ -53,7 +53,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#about"
+              href="//#about"
               className={` px-4 py-2 rounded-full ${styles.navLinks}`}
             >
               About
@@ -61,7 +61,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#skills"
+              href="//#skills"
               className={` px-4 py-2 rounded-full ${styles.navLinks}`}
             >
               Skills
@@ -69,7 +69,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#projects"
+              href="//#projects"
               className={` px-4 py-2 rounded-full ${styles.navLinks}`}
             >
               Projects
@@ -77,7 +77,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#contact"
+              href="//#contact"
               className={` px-4 py-2 rounded-full ${styles.navLinks}`}
             >
               Contact
