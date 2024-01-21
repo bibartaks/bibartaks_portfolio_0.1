@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
-import { prosto_one } from '@/app/fonts'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from './about.module.scss'
+import { prosto_one } from "@/app/fonts";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./about.module.scss";
 
 export default function About() {
   return (
@@ -43,28 +43,28 @@ export default function About() {
           participated in various age-based domestic district cricket
           tournaments. Additionally, my love for animals shines through, as I
           find solace and joy in petting and caring for them. */}
-          Hello! I'm Bibarta Kumar Sarkar, a passionate full-stack developer
-          with a journey that began at the age of 10 when I delved into
-          programming as a self-taught enthusiast. My early aptitude for coding
-          caught my father's attention, leading to enrollment in a prestigious
-          online platform that fueled my love for coding. Subsequently,
-          scholarships from renowned developer platforms furthered my
-          educational journey. While my initial interests included drawing and
-          gaming, my mother nurtured my artistic spirit by providing a tablet.
-          Today, as a full-stack developer, I merge artistic flair with
-          technical expertise to craft captivating and user-friendly interfaces.
-          Keeping abreast of the latest web technologies and industry trends is
-          paramount to me, ensuring my work remains innovative. I am proficient
-          in JavaScript, TypeScript, ReactJS, TailWindCSS, NextJS, Node.js,
-          Firebase, Supabase, MongoDB, and more. Seeking a full-time role, I
-          aspire to contribute my skills and dedication to help a company
-          achieve its goals. Beyond coding, cricket has been a cherished pastime
-          since my early years, and I actively participate in age-based domestic
-          district cricket tournaments, embodying the spirit of a valuable team
-          player. Aside from my tech pursuits, my love for animals is evident as
-          I find solace and joy in petting and caring for them. I bring a
-          holistic approach to both my professional and personal life, aiming to
-          make meaningful contributions wherever I go.
+          Hello! My name is Bibarta Kumar Sarkar, and I am a passionate
+          full-stack developer. My journey began when I was just 10 years old.
+          As a self-taught enthusiast, I delved into programming, and my early
+          aptitude for coding caught my father's attention. He enrolled me in a
+          prestigious online platform where I furthered my love for coding. I
+          also received scholarships from renowned developer platforms to
+          further my education. Although my initial interests included drawing
+          and gaming, my mother nurtured my artistic spirit by giving me a
+          tablet. Today, as a full-stack developer, I merge my artistic flair
+          with technical expertise to craft captivating and user-friendly
+          interfaces. Staying up to date with the latest web technologies and
+          industry trends is essential to me, ensuring that my work remains
+          innovative. I am proficient in JavaScript, TypeScript, ReactJS,
+          TailwindCSS, NextJS, Node.js, Firebase, Supabase, MongoDB, and more. I
+          am currently seeking a full-time role where I can contribute my skills
+          and dedication to help a company achieve its goals. Besides coding, I
+          am also an avid cricket player and actively participate in age-based
+          domestic district cricket tournaments, always embodying the spirit of
+          a valuable team player. I have a love for animals, and I find solace
+          and joy in petting and caring for them. I bring a holistic approach to
+          both my professional and personal life, aiming to make meaningful
+          contributions wherever I go.
         </p>
         <Link
           className={`${styles.aboutBtn} px-3 py-2 text-sm`}
@@ -75,5 +75,5 @@ export default function About() {
         </Link>
       </div>
     </div>
-  )
+  );
 }
