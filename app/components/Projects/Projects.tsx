@@ -1,18 +1,23 @@
-"use client"
+"use client";
 
-import React from "react"
-import styles from "./projects.module.scss"
-import { prosto_one } from "@/app/fonts"
-import Image from "next/image"
-import { Splide, SplideSlide } from "@splidejs/react-splide"
-import "@splidejs/react-splide/css"
-import Link from "next/link"
+import { prosto_one } from "@/app/fonts";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
+import localFont from "next/font/local";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./projects.module.scss";
+
+const myFont = localFont({
+  src: "../../Stardom-Regular.woff",
+  display: "swap",
+});
 export default function Projects() {
   return (
     <div id="projects">
       <div className="container max-w-[1100px] mx-auto py-20 px-3">
         <h1 className="text-2xl font-bold mb-4">
-          <span className={`${prosto_one.className} ${styles.title}`}>
+          <span className={`${myFont.className} ${styles.title}`}>
             Projects
           </span>
         </h1>
@@ -156,5 +161,5 @@ export default function Projects() {
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,8 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
-import { prosto_one } from "@/app/fonts";
+import localFont from "next/font/local";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./about.module.scss";
+
+const myFont = localFont({
+  src: "../../Stardom-Regular.woff",
+  display: "swap",
+});
 
 export default function About() {
   return (
@@ -18,7 +23,7 @@ export default function About() {
           />
         </div>
         <h1 className="text-2xl font-bold mb-4">
-          <span className={`${prosto_one.className} ${styles.title}`}>
+          <span className={`${myFont.className} ${styles.title}`}>
             About Me
           </span>
         </h1>

@@ -1,16 +1,19 @@
-import React from 'react'
-import styles from './skills.module.scss'
-import { prosto_one } from '@/app/fonts'
-import Image from 'next/image'
+import { prosto_one } from "@/app/fonts";
+import localFont from "next/font/local";
+import Image from "next/image";
+import styles from "./skills.module.scss";
+
+const myFont = localFont({
+  src: "../../Stardom-Regular.woff",
+  display: "swap",
+});
 
 export default function Skills() {
   return (
     <div className="" id="skills">
       <div className="container max-w-[1100px] mx-auto text-white py-20 px-3">
         <h1 className="text-2xl font-bold mb-4">
-          <span className={`${prosto_one.className} ${styles.title} `}>
-            Skills
-          </span>
+          <span className={`${myFont.className} ${styles.title} `}>Skills</span>
         </h1>
         <div className={`${styles.skillsBorder}`}>
           <div
@@ -98,5 +101,5 @@ export default function Skills() {
         </div>
       </div>
     </div>
-  )
+  );
 }

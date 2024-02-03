@@ -1,34 +1,39 @@
-'use client'
+"use client";
 
-import { prosto_one } from '@/app/fonts'
-import Link from 'next/link'
-import React, { useState, useEffect } from 'react'
-import styles from './navbar.module.scss'
+import localFont from "next/font/local";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import styles from "./navbar.module.scss";
+
+const myFont = localFont({
+  src: "../../Stardom-Regular.woff",
+  display: "swap",
+});
 
 export default function Navbar() {
-  const [scrolling, setScrolling] = useState(false)
+  const [scrolling, setScrolling] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        setScrolling(true)
+        setScrolling(true);
       } else {
-        setScrolling(false)
+        setScrolling(false);
       }
-    }
+    };
 
-    window.addEventListener('scroll', handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const navClass = `${
     styles.navBg
   } flex flex-col backdrop-blur-2xl text-white justify-center items-center ml-0 mr-0 w-auto px-2 mt-5 py-4 rounded-full   transition hidden lg:flex xl:flex 2xl:flex ${
-    scrolling ? styles.borderOnScroll : ''
-  }`
+    scrolling ? styles.borderOnScroll : ""
+  }`;
 
   return (
     <nav
@@ -42,7 +47,7 @@ export default function Navbar() {
         // }`}
         className={navClass}
       >
-        <ul className={` ${prosto_one.className} flex  space-x-4`}>
+        <ul className={` ${myFont.className} flex  space-x-4`}>
           <li>
             <Link
               href="//"
@@ -86,5 +91,5 @@ export default function Navbar() {
         </ul>
       </div>
     </nav>
-  )
+  );
 }

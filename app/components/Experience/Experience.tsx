@@ -1,14 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react'
-import styles from './experience.module.scss'
-import { prosto_one } from '@/app/fonts'
+import { prosto_one } from "@/app/fonts";
+import localFont from "next/font/local";
+import styles from "./experience.module.scss";
+
+const myFont = localFont({
+  src: "../../Stardom-Regular.woff",
+  display: "swap",
+});
 
 export default function Experience() {
   return (
     <div>
       <div className="container max-w-[1100px] mx-auto pb-20 px-3">
         <h1 className="text-2xl font-bold mb-4">
-          <span className={`${prosto_one.className} ${styles.title} `}>
+          <span className={`${myFont.className} ${styles.title} `}>
             Experience
           </span>
         </h1>
@@ -22,7 +27,7 @@ export default function Experience() {
             <h3
               className={`text-white opacity-80 mb-2  font-medium ${styles.experienceFont} ${prosto_one.className}`}
             >
-              <span className={styles.experienceFont}>Frontend</span>{' '}
+              <span className={styles.experienceFont}>Frontend</span>{" "}
               <span className={styles.experienceFont}>Developer</span>
             </h3>
             <h5 className="text-sm  opacity-90 text-gray-300 mb-5">
@@ -61,5 +66,5 @@ export default function Experience() {
         </div>
       </div>
     </div>
-  )
+  );
 }

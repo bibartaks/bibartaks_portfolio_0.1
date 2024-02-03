@@ -1,15 +1,18 @@
-"use client"
+"use client";
 
 /* eslint-disable react/no-unescaped-entities */
-import { prosto_one } from "@/app/fonts"
-import React from "react"
-import styles from "./contact.module.scss"
-import Image from "next/image"
-import { MongoClient } from "mongodb"
-import { redirect } from "next/navigation"
-import SubmitButton from "@/app/SubmitButton"
-import { createFormData } from "@/app/actions"
-import { useFormState } from "react-dom"
+import SubmitButton from "@/app/SubmitButton";
+import { createFormData } from "@/app/actions";
+import { prosto_one } from "@/app/fonts";
+import localFont from "next/font/local";
+import Image from "next/image";
+import { useFormState } from "react-dom";
+import styles from "./contact.module.scss";
+
+const myFont = localFont({
+  src: "../../Stardom-Regular.woff",
+  display: "swap",
+});
 
 // export default async function Contact() {
 export default function Contact() {
@@ -17,9 +20,9 @@ export default function Contact() {
     name: "",
     email: "",
     message: "",
-  }
+  };
 
-  const [state, formAction] = useFormState(createFormData, initialState)
+  const [state, formAction] = useFormState(createFormData, initialState);
 
   // async function create(formData: FormData) {
   //   "use server"
@@ -48,7 +51,7 @@ export default function Contact() {
     <div className=" overflow-hidden" id="contact">
       <div className="container max-w-[1100px] mx-auto py-20 px-3">
         <h1 className="text-2xl font-bold mb-4">
-          <span className={`${prosto_one.className} ${styles.title} `}>
+          <span className={`${myFont.className} ${styles.title} `}>
             Let's talk
           </span>
         </h1>
@@ -106,5 +109,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  )
+  );
 }

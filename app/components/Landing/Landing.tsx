@@ -1,7 +1,12 @@
-import React from "react"
-import Image from "next/image"
-import { prosto_one } from "@/app/fonts"
-import styles from "./landing.module.scss"
+import { prosto_one } from "@/app/fonts";
+import localFont from "next/font/local";
+import Image from "next/image";
+import styles from "./landing.module.scss";
+
+const myFont = localFont({
+  src: "../../Stardom-Regular.woff",
+  display: "swap",
+});
 
 export default function Landing() {
   return (
@@ -26,10 +31,10 @@ export default function Landing() {
 
             <div className="mx-auto">
               <h1
-                className={`${prosto_one.className} ${styles.title} 	text-bold text-white mb-0`}
+                className={`${myFont.className} ${styles.title}  	text-bold text-white mb-0`}
               >
                 <span
-                  className={`${styles.title} text-[2rem] lg:text-[2.5rem] xl:text-[2.5rem] 2xl:text-[2.5rem]`}
+                  className={`${styles.title} text-[3rem] lg:text-[2.5rem] xl:text-[2.5rem] 2xl:text-[3rem]`}
                 >
                   Bibarta K. Sarkar
                 </span>
@@ -210,5 +215,5 @@ export default function Landing() {
         {/* </div> */}
       </div>
     </header>
-  )
+  );
 }
