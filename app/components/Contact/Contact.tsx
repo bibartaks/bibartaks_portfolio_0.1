@@ -3,7 +3,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import SubmitButton from "@/app/SubmitButton";
 import { createFormData } from "@/app/actions";
-import { prosto_one } from "@/app/fonts";
 import localFont from "next/font/local";
 import Image from "next/image";
 import { useFormState } from "react-dom";
@@ -11,6 +10,11 @@ import styles from "./contact.module.scss";
 
 const myFont = localFont({
   src: "../../Stardom-Regular.woff",
+  display: "swap",
+});
+
+const SatoshiFont = localFont({
+  src: "../../Satoshi-Regular.woff",
   display: "swap",
 });
 
@@ -55,7 +59,9 @@ export default function Contact() {
             Let's talk
           </span>
         </h1>
-        <p className="text-white opacity-80 leading-[200%] lg:leading-[150%] xl:leading-[150%] 2xl:leading-[200%] mb-10 ">
+        <p
+          className={` ${SatoshiFont.className} text-white opacity-80 leading-[200%] lg:leading-[150%] xl:leading-[150%] 2xl:leading-[200%] mb-10 `}
+        >
           Would you like to learn more about me, explore potential
           collaborations, enlist my assistance for your projects, or perhaps
           satisfy your curiosity? If so, please don't hesitate to reach out. I
@@ -71,7 +77,7 @@ export default function Contact() {
               name="name"
               id="name"
               placeholder="Enter Your Name"
-              className={` ${prosto_one.className} py-2 px-1 bg-transparent border-b-2 focus:outline-none focus:border-[#e815b7] text-white placeholder-gray-400 caret-[#e815b7]   focus:shadow-2xl	`}
+              className={` ${SatoshiFont.className} py-2 px-1 bg-transparent border-b-2 focus:outline-none focus:border-[#e815b7] text-white placeholder-gray-400 caret-[#e815b7]   focus:shadow-2xl	`}
               required
             />
             <input
@@ -79,17 +85,17 @@ export default function Contact() {
               name="email"
               id="email"
               placeholder="Enter Your email"
-              className={` ${prosto_one.className} py-2 px-1 bg-transparent border-b-2 focus:outline-none focus:border-[#e815b7] text-white placeholder-gray-400 caret-[#e815b7]	`}
+              className={` ${SatoshiFont.className} py-2 px-1 bg-transparent border-b-2 focus:outline-none focus:border-[#e815b7] text-white placeholder-gray-400 caret-[#e815b7]	`}
               required
             />
             <textarea
               name="message"
               placeholder="Enter Your Message"
-              id="message"
               cols={30}
+              id="message"
               rows={7}
               required
-              className={` ${prosto_one.className} py-2 px-1 bg-transparent border-b-2 focus:outline-none focus:border-[#e815b7] text-white placeholder-gray-400 caret-[#e815b7]	`}
+              className={` ${SatoshiFont.className} py-2 px-1 bg-transparent border-b-2 focus:outline-none focus:border-[#e815b7] text-white placeholder-gray-400 caret-[#e815b7]	`}
             ></textarea>
 
             <SubmitButton />

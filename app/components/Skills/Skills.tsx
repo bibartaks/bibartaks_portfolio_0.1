@@ -8,6 +8,11 @@ const myFont = localFont({
   display: "swap",
 });
 
+const SatoshiFont = localFont({
+  src: "../../Satoshi-Regular.woff",
+  display: "swap",
+});
+
 export default function Skills() {
   return (
     <div className="" id="skills">
@@ -35,7 +40,7 @@ export default function Skills() {
                   Language
                 </span>
               </h1>
-              <ul className=" space-y-2  opacity-80">
+              <ul className={` space-y-2  opacity-80 ${SatoshiFont.className}`}>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>SASS</li>
@@ -58,7 +63,7 @@ export default function Skills() {
                   Technology
                 </span>
               </h1>
-              <ul className="space-y-2 opacity-80">
+              <ul className={` space-y-2  opacity-80 ${SatoshiFont.className}`}>
                 <li>React.js</li>
                 <li>Next.js</li>
                 <li>Node.js</li>
@@ -87,7 +92,7 @@ export default function Skills() {
                   Tools
                 </span>
               </h1>
-              <ul className="space-y-2  opacity-80">
+              <ul className={` space-y-2  opacity-80 ${SatoshiFont.className}`}>
                 <li>Figma</li>
                 <li>Powerpoint</li>
                 <li>Git</li>

@@ -9,6 +9,11 @@ const myFont = localFont({
   display: "swap",
 });
 
+const SatoshiFont = localFont({
+  src: "../../Satoshi-Regular.woff",
+  display: "swap",
+});
+
 export default function About() {
   return (
     <div className="relative scroll-mb-20" id="about">
@@ -28,7 +33,9 @@ export default function About() {
           </span>
         </h1>
 
-        <p className=" leading-[200%] opacity-80 text-left lg:text-justify xl:text-justify 2xl:text-justify mb-5">
+        <p
+          className={` ${SatoshiFont.className} leading-[200%] opacity-80 text-left lg:text-justify xl:text-justify 2xl:text-justify mb-5`}
+        >
           {/* Hi there! I'm Bibarta,a full-stack developer. Starting at age 10 as a
           self-taught programmer, I quickly captured my father's attention, who
           enrolled me in a prestigious online platform for learning code. Later,
@@ -72,7 +79,8 @@ export default function About() {
           contributions wherever I go.
         </p>
         <Link
-          className={`${styles.aboutBtn} px-3 py-2 text-sm`}
+          className={`${styles.aboutBtn} ${SatoshiFont.className} leading-7 
+            px-3 py-2 hover:opacity-90 transition-opacity text-sm`}
           target="_blank"
           href="/BibartaKSarkar_Resume.pdf"
         >

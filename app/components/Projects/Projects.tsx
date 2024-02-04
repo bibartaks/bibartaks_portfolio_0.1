@@ -12,6 +12,12 @@ const myFont = localFont({
   src: "../../Stardom-Regular.woff",
   display: "swap",
 });
+
+const SatoshiFont = localFont({
+  src: "../../Satoshi-Regular.woff",
+  display: "swap",
+});
+
 export default function Projects() {
   return (
     <div id="projects">
@@ -55,7 +61,9 @@ export default function Projects() {
                 >
                   Coinify
                 </h1>
-                <p className="max-w-[500px] text-white opacity-80 mb-2">
+                <p
+                  className={` ${SatoshiFont.className} max-w-[500px] text-white opacity-80 mb-2`}
+                >
                   Conify is a web app where you can see real-time cryptographic
                   data. trending coins and many more!
                 </p>
@@ -96,7 +104,9 @@ export default function Projects() {
                 >
                   Codeverse explorer
                 </h1>
-                <p className="max-w-[500px] text-white opacity-80 mb-2">
+                <p
+                  className={` ${SatoshiFont.className} max-w-[500px] text-white opacity-80 mb-2`}
+                >
                   Codeverse Explorer is a platform where you can read various
                   types of programming blogs and publish yours
                 </p>
@@ -135,7 +145,9 @@ export default function Projects() {
                 >
                   ShopXPress
                 </h1>
-                <p className="max-w-[500px] text-white opacity-80 mb-2">
+                <p
+                  className={` ${SatoshiFont.className} max-w-[500px] text-white opacity-80 mb-2`}
+                >
                   Shopxpress is a website where you find products and add in You
                   can also filter your products in your cart.
                 </p>

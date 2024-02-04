@@ -8,6 +8,11 @@ const myFont = localFont({
   display: "swap",
 });
 
+const SatoshiFont = localFont({
+  src: "../../Satoshi-Regular.woff",
+  display: "swap",
+});
+
 export default function Experience() {
   return (
     <div>
@@ -30,10 +35,14 @@ export default function Experience() {
               <span className={styles.experienceFont}>Frontend</span>{" "}
               <span className={styles.experienceFont}>Developer</span>
             </h3>
-            <h5 className="text-sm  opacity-90 text-gray-300 mb-5">
+            <h5
+              className={` ${SatoshiFont.className} text-sm  opacity-90 text-gray-300 mb-5`}
+            >
               Aug 2022 - Sep 2023
             </h5>
-            <p className="text-white opacity-80 max-w-[100%] text-left lg:text-justify 2xl:text-justify xl:text-justify leading-[200%]">
+            <p
+              className={` ${SatoshiFont.className} text-white opacity-80 max-w-[100%] text-left lg:text-justify 2xl:text-justify xl:text-justify leading-[200%]`}
+            >
               {/* I led the transformation of Batayon Library's digital platform,
               enhancing user experience and accessibility for children and
               adolescents. Inspired by Batayon's mission to promote a love for

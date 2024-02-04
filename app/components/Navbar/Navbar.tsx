@@ -31,7 +31,7 @@ export default function Navbar() {
 
   const navClass = `${
     styles.navBg
-  } flex flex-col backdrop-blur-2xl text-white justify-center items-center ml-0 mr-0 w-auto px-2 mt-5 py-4 rounded-full   transition hidden lg:flex xl:flex 2xl:flex ${
+  } flex flex-col backdrop-blur-2xl text-white justify-center items-center ml-0 mr-0 w-auto px-2 mt-5 py-4 rounded-full transition hidden lg:flex xl:flex 2xl:flex ${
     scrolling ? styles.borderOnScroll : ""
   }`;
 
