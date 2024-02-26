@@ -1,13 +1,13 @@
-import Image from "next/image"
-import { prosto_one } from "./fonts"
-import Landing from "./components/Landing/Landing"
-import Skills from "./components/Skills/Skills"
-import About from "./components/About/About"
-import Projects from "./components/Projects/Projects"
-import Experience from "./components/Experience/Experience"
-import Contact from "./components/Contact/Contact"
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Experience from "./components/Experience/Experience";
+import Landing from "./components/Landing/Landing";
+import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
 
 export default function Home() {
+  // const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div>
       <svg
@@ -36,5 +36,5 @@ export default function Home() {
       <Experience />
       <Contact />
     </div>
-  )
+  );
 }

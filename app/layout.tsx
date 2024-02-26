@@ -1,12 +1,11 @@
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import Footer from "./components/Footer/Footer"
-import Navbar from "./components/Navbar/Navbar"
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Bibarta K. Sarkar | Fullstack Developer",
@@ -78,12 +77,12 @@ export const metadata: Metadata = {
     description:
       "Bibarta is a full-stack developer with one year plus of experience in JavaScript, TypeScript, React, TailwindCSS, Node.js, Firebase, MongoDB and Figma. He started at the age of 10 as a self-taught learner, later enrolling in advanced courses with prestigious platforms. He loves to blend his skills in the most creative way possible. Beyond coding, he excels in cricket in domestic tournaments and finds solace in caring for animals.",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className="scroll-smooth">
@@ -94,5 +93,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }

@@ -17,7 +17,7 @@ export default function Landing() {
         <div className="">
           <div className="flex flex-col  items-center  justify-center  space-x-0 mb-5">
             <div className="rounded-full bg-gradient-to-tl mb-5 from-purple-700/60 to-rose-400/60 shadow-lg p-[2px] ring-[5px] lg:ring-[7px] xl:ring-[7px] 2xl:ring-[7px] ring-purple-500/10">
-              <div className="rounded-full p-1 h-[52px] w-[52px] lg:h-[100px] xl:h-[100px] 2xl:h-[100px] lg:w-[100px] xl:w-[100px] 2xl:w-[100px]">
+              <div className="rounded-full p-1 h-[92px] w-[92px] lg:h-[100px] xl:h-[100px] 2xl:h-[100px] lg:w-[100px] xl:w-[100px] 2xl:w-[100px]">
                 <Image
                   src="https://res.cloudinary.com/dano2nyff/image/upload/v1699380350/yxrvwszingotthzcnqym.png"
                   width={1000}
@@ -31,10 +31,10 @@ export default function Landing() {
 
             <div className="mx-auto">
               <h1
-                className={`${myFont.className} ${styles.title}  	text-bold text-white mb-0`}
+                className={`${myFont.className} ${styles.title} text-center  	text-bold text-white mb-0`}
               >
                 <span
-                  className={`${styles.title} text-[3rem] lg:text-[2.5rem] xl:text-[2.5rem] 2xl:text-[3rem]`}
+                  className={`${styles.title} text-center text-[2rem] lg:text-[2.5rem] xl:text-[2.5rem] 2xl:text-[3rem]`}
                 >
                   Bibarta K. Sarkar
                 </span>
