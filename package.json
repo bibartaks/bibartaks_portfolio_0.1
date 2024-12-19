@@ -9,11 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.1",
     "@splidejs/react-splide": "^0.7.12",
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.0",
     "mongodb": "^6.2.0",
-    "next": "14.0.1",
+    "next": "^15.1.1",
     "react": "^18",
     "react-dom": "^18",
     "sass": "^1.69.5",

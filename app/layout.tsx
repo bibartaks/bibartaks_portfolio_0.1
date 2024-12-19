@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import "./globals.css";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -86,6 +87,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <GoogleTagManager gtmId="GTM-MHS7RBM8" />
       <body className={`${inter.className} `}>
         <Navbar />
         {children}
